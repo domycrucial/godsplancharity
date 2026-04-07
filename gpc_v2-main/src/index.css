@@ -1,1 +1,19 @@
 @import "tailwindcss";
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 60s linear infinite; /*slower speed  */
+  width: max-content; /* IMPORTANT */
+}
+ /* Pause on hover */
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
