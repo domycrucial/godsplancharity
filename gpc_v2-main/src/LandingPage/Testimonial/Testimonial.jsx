@@ -16,9 +16,9 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: 'Paul Charles',
+      name: 'Alida Kibonde',
       content: "They aren't just an organization; they are part of the family. Together we've transformed the local community center into a hub of hope for everyone.",
-      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s4_lp8qey.jpg',
+      image: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/DSC_1085_jcbmcw',
     },
     {
       id: 4,
@@ -49,6 +49,12 @@ const Testimonials = () => {
       name: 'Emmanuel Laizer',
       content: "Volunteering to teach technology to kids at the charity was a rewarding experience. Seeing their faces light up as they mastered new skills was the highlight of my day. It's great to help give them the tools for the future.",
       image: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/DSC_0903_yrj2xm',
+    },
+    {
+      id: 9,
+      name: 'Davson & Abuu & Ashraf',
+      content: "A huge shoutout to the three hardworking men who powered this event! Their nonstop hustle and 'can-do' attitude kept everything running perfectly from start to finish. They were the heartbeat of our success—true legends!",
+       image: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/dav_abuu_ashraf_bzeczd',
     }
   ];
 
@@ -89,7 +95,7 @@ const Testimonials = () => {
                 {[...Array(5)].map((_, i) => (
                   <span
                     key={i}
-                    className="material-symbols-outlined text-xl font-bold"
+                    className="material-symbols-outlined filled text-xl font-bold"
                   >
                     star
                   </span>

@@ -4,16 +4,21 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-30%);
+    transform: translateX(-50%);
   }
 }
 
 .animate-scroll {
-  animation: scroll 60s linear infinite; /*slower speed  */
+  animation: scroll 70s linear infinite; /*slower speed  */
   width: max-content; /* IMPORTANT */
+  will-change: transform; /* Performance optimization */
 }
  /* Pause on hover */
 .animate-scroll:hover {
   animation-play-state: paused;
+}
+.material-symbols-outlined.filled {
+    font-variation-settings:
+        'FILL' 1,
 }
 
