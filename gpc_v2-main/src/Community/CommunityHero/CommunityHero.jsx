@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div
         className="flex min-h-[520px] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-8 text-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(15, 73, 189, 0.7) 0%, rgba(10, 30, 80, 0.9) 100%), url("https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s2_ncpnep.jpg")`
+          backgroundImage: `linear-gradient(rgba(69, 87, 123, 0.7) 0%, rgba(10, 30, 80, 0.9) 100%), url("https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s2_ncpnep.jpg")`
         }}
       >
         <div className="max-w-3xl flex flex-col gap-4">
