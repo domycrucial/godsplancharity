@@ -17,6 +17,38 @@ const FAQ = () => {
       answer:
         'Please reach out via our contact page for corporate partnership inquiries. We offer various collaborative programs for organizations looking to increase their social impact.',
     },
+    {
+      id: 3,
+      question: 'Can I donate items like clothes or books?',
+      answer:
+        'Yes! We gratefully accept gently used clothing, shoes, and school supplies at our Arusha office. Please contact us to drop them off.'
+    },
+   
+    {
+      id: 4,
+      question: 'Can I visit your projects in person?',
+      answer:
+        'Yes, Definitely. We love hosting donors! If you are in Arusha. Please contact us to schedule a visit and learn more about our work in the community.'
+    },
+    {
+      id: 5,
+      question: 'Can I donate using M-Pesa or Tigo Pesa?',
+      answer:
+        'Yes, mobile money is our most popular way to give locally. You can find our official Merchant/Lipa number on the "Donate" page.',
+    },
+     {
+      id: 6,
+      question: ' Are there volunteer opportunities available?',
+      answer:
+        'Yes! Whether you are a local or a traveler, you can help with teaching, sports coaching, or community health programs.',
+     },
+     {
+      id: 7,
+      question: 'Who decides which charity centers get help?',
+      answer:
+        'Our team of community members and volunteers work together to assess the needs of each center and allocate resources accordingly.'
+     },
+
   ];
 
   const toggleItem = (id) => {
