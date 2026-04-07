@@ -43,6 +43,14 @@ const TeamGrid = () => {
       image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315886/jjmakuru_eurvyc.jpg',
       alt: 'domy',
       tsup: 'https://wa.me/255760370490'
+    },
+    {
+      id: 6,
+      name: 'Emmanuel Laizer',
+      role: 'Videographer and Photographer',
+      image: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/ima_ti9mpl',
+      alt: 'Tronic',
+      tsup: 'https://wa.me/255785502543'
     }
   ];
 
