@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/gpc.png" />
+    <link rel="stylesheet" href="https://googleapis.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>God's Plan Charity</title>
+    <script>
+    var redirect = sessionStorage.getItem("redirect")
+    if(redirect) {
+        sessionStorage.removeItem("redirect")
+        history.replaceState(null, null, redirect)
+    } 
+        </script>
+  </head>
+  <body>
+    <!-- React will inject the app into this div -->
+    <div id="root"></div>
+
+    <!-- This script tag is CRITICAL: it links to your main React entry file -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
