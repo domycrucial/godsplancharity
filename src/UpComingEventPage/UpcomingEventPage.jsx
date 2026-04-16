@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import DonationSection from "../Donate/DonateSection/DonateSection";
 import AlertBar from "../LandingPage/AlertBar/Alert";
 import FloatingActionsButtons from "../LandingPage/FloatingActionButtons/FloatingActionButtons";
@@ -12,7 +13,14 @@ import RegistrationForm from "./RegistrationForm/RegistrationForm";
 
 export default function UpcomingEvent(){
     return(
-        <>
+        <>  
+                <Helmet>
+                <title>Upcoming Event | Namanga | 25 April 2026</title>
+                  <meta
+                    name="description"
+                    content="Join God's Plan Charity outreach event at Rejoice Homekids Center, Namanga on 25 April 2026 supporting orphaned children with education, food, and computer skills."
+                />    
+                </Helmet> 
                 <AlertBar />
                 <Navbar />
                 <div className="px-2 sm:px-20 bg-blue-100">
