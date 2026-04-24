@@ -7,7 +7,7 @@ const Events = () => {
     {
       id: 1,
       title: 'Namanga Home Visitation',
-      date: 'Apr 25, 2026',
+      date: 'May 2nd, 2026',
       description: 'Helping local families access fresh, nutritious meals this autumn season.',
       image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s4_lp8qey.jpg',
       status: 'Upcoming',

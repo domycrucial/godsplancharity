@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 
 const EventPosters = () => {
   const [posters] = useState([
-    { id: 1, src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318976/poster_mdk5ky.jpg', alt: 'Charity Gala Poster 1' },
-    { id: 2, src: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/poster2_km5yqa', alt: 'Charity Gala Poster 2' },
-    { id: 3, src: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/postter3_h9pecf', alt: 'Charity Gala Poster 3' }
+    // { id: 1, src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318976/poster_mdk5ky.jpg', alt: 'Charity Gala Poster 1' },
+    // { id: 2, src: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/poster2_km5yqa', alt: 'Charity Gala Poster 2' },
+    // { id: 3, src: 'https://res.cloudinary.com/dyxplt0rb/image/upload/f_auto,q_auto/postter3_h9pecf', alt: 'Charity Gala Poster 3' }
   ]);
 
   const handleDownload = (posterId) => {
@@ -23,7 +23,7 @@ const EventPosters = () => {
       <div className="flex flex-col gap-2 mb-6">
         <h3 className="text-blue-800 text-2xl font-bold">Event Posters</h3>
         <p className="text-slate-600">
-          Our Event posters.
+          Our Event posters are coming soon.
         </p>
       </div>
 

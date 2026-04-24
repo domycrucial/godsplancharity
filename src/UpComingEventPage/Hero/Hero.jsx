@@ -24,7 +24,7 @@ const UpcomingHero = () => {
           <div className="relative z-20 flex flex-col p-6 md:p-10 gap-2">
             <div className="flex items-center gap-2 text-white text-sm font-medium">
               <span className="material-symbols-outlined text-sm">calendar_today</span>
-              Saturday, April 25th • 08:00 AM
+              Saturday, May 2nd • 08:00 AM
             </div>
             <h1 className="text-white tracking-light text-4xl md:text-5xl font-bold leading-tight">
               Rejoice Home Kid Center

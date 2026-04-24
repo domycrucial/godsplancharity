@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const TARGET_DATE = new Date('2026-04-25T00:00:00');
+const TARGET_DATE = new Date('2026-05-02T00:00:00');
 
 const getTimeLeft = () => {
   const diff = TARGET_DATE - new Date();
@@ -57,7 +57,7 @@ const UpcomingEvent = () => {
               <span className="material-symbols-outlined text-blue-800 bg-white p-1 rounded-lg">
                 calendar_today
               </span>
-              <span className="font-bold">April 25, 2026</span>
+              <span className="font-bold">May 02, 2026</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="material-symbols-outlined text-blue-800 bg-white p-1 rounded-lg">
