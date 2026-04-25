@@ -30,7 +30,7 @@ const FloatingActionsButtons = () => {
         className="w-12 h-12 bg-blue-800 text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         title="Back to Top"
       >
-        <span className="material-symbols-outlined text-2xl"></span>
+        <span className="material-symbols-outlined text-2xl">arrow_upward</span>
       </button>
     </div>
   );
